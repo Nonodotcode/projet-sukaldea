@@ -1,0 +1,21 @@
+#app2 .title {
+    padding:30px;
+    text-align: center;
+}
+
+#app2 .register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app2 .register input {
+    margin-bottom: 10px;
+}
+
+#app2 .register .btn-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
