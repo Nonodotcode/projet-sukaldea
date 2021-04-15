@@ -19,6 +19,9 @@ const router = new VueRouter({
     }, {
       path: '*',
       redirect: '/'
+    }, {
+      path: '/connexion',
+      component: require('./components/Page3.vue').default
     }
   ]
 })

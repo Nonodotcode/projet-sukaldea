@@ -1,5 +1,5 @@
 <template>
-  <div id="app2">
+  <div id="app3">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -18,45 +18,29 @@
         </ul>
       </div>
     </nav>
-
-    <h1 class="title">Inscription</h1>
-    <div class="register">
+    <h1 class="title">CONNEXION</h1>
+    <div class="connect">
       <form action="submit">
         <label>Pseudo :</label>
         <br />
         <input type="text" />
         <br />
-        <label>Nom :</label>
-        <br />
-        <input type="text" required />
-        <br />
-        <label>Prénom :</label>
-        <br />
-        <input type="text" required />
-        <br />
-        <label>Adresse email :</label>
-        <br />
-        <input type="text" required />
-        <br />
         <label>Mot de passe :</label>
         <br />
-        <input type="text" required />
+        <input type="password" />
         <br />
-        <label>Confirmer le mot de passe :</label>
-        <br />
-        <input type="text" required />
-        <br />
-        <div class="btn-register">
-          <button type="submit" class="btn btn-primary">S'inscrire</button>
+        <div class="btn-connect">
+          <button type="submit" class="btn btn-primary">Se connecter</button>
         </div>
       </form>
     </div>
   </div>
 </template>
-
 <script>
 export default {
-  name: "Page2",
-  components: {}
+  name: "Connexion"
 };
 </script>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
+</style>
